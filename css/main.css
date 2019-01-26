@@ -3,7 +3,9 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+
 .bg {
     /* The image used */
     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); */
@@ -18,10 +20,15 @@ html, body {
     background-size: cover;
     background-blend-mode: darken;
   }
+
+
 button {
     align-items: center;
 }
 
+p,h1,h2,h3,h4,h5,h6,nav,button,label,footer,th,table,tr,td {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 
 .register {
     background-color: white;
@@ -40,7 +47,7 @@ ul {
     display: inline;
 }
 section{
-    padding: 3em;
+   /* padding: 3em; */
     align-content: center;
     
 }
@@ -77,12 +84,11 @@ footer a :hover{
 .footer {
     position: relative;
     left: 0;
-    bottom: 30%;
+    bottom: 0%;
     width: 100%;
     background-color: #f4f4f5;
     color: white;
     text-align: center;
-    padding: 5%;
     
  }
 
@@ -173,9 +179,9 @@ article {
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 400px) {
     .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+    .sidebar a {font-size: 10px;}
   }
 
   .slidecontainer {
@@ -186,7 +192,7 @@ article {
   .slider {
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
-    width: 100%; /* Full-width */
+    width: 50%; /* Full-width */
     height: 25px; /* Specified height */
     background: #d3d3d3; /* Grey background */
     outline: none; /* Remove outline */
@@ -204,8 +210,8 @@ article {
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
     background: #4CAF50; /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
@@ -241,5 +247,188 @@ article {
   color: #aaa;
 }
 
+.d-block {
+  align-items: center;
+}
+
+important {
+  color: red;
+}
+
+success {
+  color: green;
+}
+.space { 
+  padding: 1em;
+}
+
+.blur-filter {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+#loadMore {
+  padding: 10px;
+  text-align: center;
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+}
+
+.more {
+  display:none;
+  border-style: solid;
+  border-color: #fff;
+  margin-bottom: 5px;
+}
+
+#recom h3{
+    overflow: hidden;
+    text-align: center;
+  }
+  
+ #recom  h3:before,
+ #recom h3:after {
+    background-color:   #a4dce4;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  
+#recom h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+#recom  h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+#navfooter {
+  color: white;
+}
+
+.square {
+  position: relative;
+  width: 50%;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
 
+.intro {
+    width: 600px;
+    left: 1000px;
+
+}
+
+#round {
+  border-radius: 50%;
+  width: 10%;
+  height: 20%;
+
+
+}
+
+div.sidelop {
+
+text-align: left;
+position: relative;
+
+}
+
+div.poiu {
+
+left: 200px;
+position: relative;
+
+
+}
+
+#hoo {
+
+border-radius: 50%;
+
+
+}
+
+#img3 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  top:1000px;
+  left: 813px;
+  height: 245px;
+  width:13.5%;
+}
+
+#poppy {
+  position: relative;
+  width: 200px;
+  left: 15%;
+  border-radius: 50%;
+  height: 185px;
+
+}
+
+div.info1 {
+position: relative;
+width: 200px;
+left: 280px;
+
+}
+
+#poppy1 {
+position: relative;
+width: 200px;
+left:865px;
+border-radius: 50%;
+height: 185px;
+top: -300px;
+
+}
+
+div.info2 {
+position: relative;
+width: 200px;
+left: 870px;
+top: -300px;
+
+}
+
+#poppy2 {
+position: relative;
+width: 200px;
+left:1425px;
+border-radius: 50%;
+height: 185px;
+top: -600px;
+
+}
+
+div.info3 {
+position: relative;
+width: 200px;
+left: 1440px;
+top: -600px;
+
+}
