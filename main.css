@@ -1,0 +1,434 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.bg {
+    /* The image used */
+    /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg"); */
+    /* background-image: url("bg2.jpg"); */
+    /* Half height */
+    /* height: 100%; */
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+
+
+button {
+    align-items: center;
+}
+
+p,h1,h2,h3,h4,h5,h6,nav,button,label,footer,th,table,tr,td {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.register {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555; /* Black */
+  }
+.login {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+  }
+
+ul {
+    /* float: left; */
+    list-style-type:none;
+    display: inline;
+}
+section{
+   /* padding: 3em; */
+    align-content: center;
+    
+}
+#video-coach {
+  align-content: center;
+  text-align: center;
+}
+
+#advertise-section {
+  padding: 5em;
+}
+
+li main {
+    display: inline;
+}
+
+header { 
+    padding: 20px;
+    margin: 0px;
+}
+
+/* #myFooter { 
+    padding-left: 10em;
+    position: relative;
+    background-color: white; 
+} */
+footer a{
+  color: black;
+}
+footer a :hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    background-color: #f4f4f5;
+    color: white;
+    text-align: center;
+    
+ }
+
+/* h4 {
+    font-family: 'Playfair Display', serif;
+} */
+
+#advertise-section{
+    text-align: center;
+}
+
+aside {
+  width: 20%;
+  padding-top: 15%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: left;
+  box-shadow: inset 5px 0 -5px 5px #29627e;
+  /* font-style: italic; */
+  color: #29627e;
+}
+
+article {
+  width: 100%;
+  padding: 4%;
+}
+
+
+#map-address {
+    height: 500px;
+    width: 100%;
+}
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 0; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 4px 4px 4px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: none;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 400px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 10px;}
+  }
+
+  .slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 50%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  
+.main {
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.d-block {
+  align-items: center;
+}
+
+important {
+  color: red;
+}
+
+success {
+  color: green;
+}
+.space { 
+  padding: 1em;
+}
+
+.blur-filter {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+#loadMore {
+  padding: 10px;
+  text-align: center;
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+}
+
+.more {
+  display:none;
+  border-style: solid;
+  border-color: #fff;
+  margin-bottom: 5px;
+}
+
+#recom h3{
+    overflow: hidden;
+    text-align: center;
+  }
+  
+ #recom  h3:before,
+ #recom h3:after {
+    background-color:   #a4dce4;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  
+#recom h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+#recom  h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+#navfooter {
+  color: white;
+}
+
+.square {
+  position: relative;
+  width: 50%;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+.intro {
+    width: 600px;
+    left: 1000px;
+
+}
+
+#round {
+  border-radius: 50%;
+  width: 10%;
+  height: 20%;
+
+
+}
+
+div.sidelop {
+
+text-align: left;
+position: relative;
+
+}
+
+div.poiu {
+
+left: 200px;
+position: relative;
+
+
+}
+
+#hoo {
+
+border-radius: 50%;
+
+
+}
+
+#img3 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  top:1000px;
+  left: 813px;
+  height: 245px;
+  width:13.5%;
+}
+
+#poppy {
+  position: relative;
+  width: 200px;
+  left: 15%;
+  border-radius: 50%;
+  height: 185px;
+
+}
+
+div.info1 {
+position: relative;
+width: 200px;
+left: 280px;
+
+}
+
+#poppy1 {
+position: relative;
+width: 200px;
+left:865px;
+border-radius: 50%;
+height: 185px;
+top: -300px;
+
+}
+
+div.info2 {
+position: relative;
+width: 200px;
+left: 870px;
+top: -300px;
+
+}
+
+#poppy2 {
+position: relative;
+width: 200px;
+left:1425px;
+border-radius: 50%;
+height: 185px;
+top: -600px;
+
+}
+
+div.info3 {
+position: relative;
+width: 200px;
+left: 1440px;
+top: -600px;
+
+}
